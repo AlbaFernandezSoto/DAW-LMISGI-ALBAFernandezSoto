@@ -1,0 +1,49 @@
+{
+  "enquestes": [
+    {
+      "id": 1,
+      "titol": "Enquesta sobre videojocs",
+      "activa": true,
+      "preguntes": [
+        {
+          "ordre": 1,
+          "text": "Quina RRS utilitzes habitualment?",
+          "tipus": "opcio_multiple",
+          "opcions": [
+            "Whastssap",
+            "Instagram",
+            "Tiktok",
+            "X"
+          ]
+        },
+        {
+          "ordre": 2,
+          "text": "Quin es el teu Shooter preferit?",
+          "tipus": "text_lliure"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titol": "Enquesta sobre habits en el dia a dia",
+      "activa": false,
+      "preguntes": [
+        {
+          "ordre": 1,
+          "text": "On menjes?",
+          "tipus": "opcio_multiple",
+          "opcions": [
+            "A casa",
+            "A una cadena rapida",
+            "A casa de la meva avia"
+          ]
+        },
+        {
+          "ordre": 2,
+          "text": "Quantes hores dediques a estudiar al dia?",
+          "tipus": "text_lliure"
+        }
+      ]
+    }
+  ]
+}
